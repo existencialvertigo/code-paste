@@ -19,10 +19,10 @@ def click_and_paste(codes, coordinates):
 
         # Simulate pressing CTRL+V to paste the code
         pyautogui.hotkey('ctrl', 'v')
-        time.sleep(1)
+        time.sleep(0)
         pyautogui.click(642,689) # EDITAR CONFORME README, localização do Receber Códigos
         # Wait a moment before the next action
-        time.sleep(1)
+        time.sleep(0)
 
 # Call the function to start the process
 click_and_paste(codes, coordinates)
