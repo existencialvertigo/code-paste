@@ -3,10 +3,10 @@ import pyperclip
 import time
 
 # List of codes
-codes = []
+codes = [] #EDITAR CONFORME README
 
 # List of coordinates (same for all)
-coordinates = [(606, 534)] * len(codes)
+coordinates = [(606, 534)] * len(codes) #EDITAR CONFORME README, localização do Campo de colar o código
 
 # Function to simulate the click and paste process
 def click_and_paste(codes, coordinates):
@@ -20,7 +20,7 @@ def click_and_paste(codes, coordinates):
         # Simulate pressing CTRL+V to paste the code
         pyautogui.hotkey('ctrl', 'v')
         time.sleep(1)
-        pyautogui.click(642,689)
+        pyautogui.click(642,689) # EDITAR CONFORME README, localização do Receber Códigos
         # Wait a moment before the next action
         time.sleep(1)
 
